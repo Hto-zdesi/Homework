@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class HomeWork5 {
     public static void main(String[] args) {
 
+
         int[] numbers = new int[100];
         int sum = 0;
         long prod = 1;
