@@ -5,7 +5,7 @@ public class HomeWork3 {
 
         int Month = 4;
 
-        switch (Month){
+        switch (Month) {
             case 1:
                 System.out.println("January");
                 break;
@@ -46,15 +46,15 @@ public class HomeWork3 {
                 System.out.println("Invalid");
         }
 
-        for (int i = 100; i <= 1000; i++){
-            for (int j = i; j%5 == 0; j++){
+        for (int i = 100; i <= 1000; i++) {
+            for (int j = i; j % 5 == 0; j++) {
                 System.out.println(j);
             }
         }
 
         float sum = 0;
-        for (int i = 1; i<=97; i+=2) {
-            sum+=i/(i+2.0);
+        for (int i = 1; i <= 97; i += 2) {
+            sum += i / (i + 2.0);
         }
         System.out.println(sum);
     }
